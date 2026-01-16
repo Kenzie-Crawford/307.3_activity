@@ -17,6 +17,12 @@ h3 {
     color: #0580c2;
     font-size: 24px;
     margin-bottom: 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+h3:hover {
+    color: #034a73;
+    transform: scale(1.05);
 }
 
 .banner {
@@ -26,6 +32,13 @@ h3 {
     padding: 20px;
     margin-bottom: 20px;
     color:white;
+}
+
+.banner:hover {
+    background-color: rgba(5, 128, 194, 0.8);
+    background-blend-mode: darken;
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
 }
 
 .job-title {
