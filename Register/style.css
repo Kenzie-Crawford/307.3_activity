@@ -29,15 +29,4 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
 }
-.register-text {
-    font-size: 0.9rem;
-}
 
-.register-text a {
-    color: #2563eb;
-    text-decoration: underline;
-}
-
-.register-text a:hover {
-    color: #1e40af;
-}
