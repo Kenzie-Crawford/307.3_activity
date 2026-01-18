@@ -1,4 +1,22 @@
+
+body{
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #000;
+  background-color: #000000;
+    color: #ffffff;
+}
 .section1 {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+
+}
+.box1, .box2 {
+    flex: 1;
+}
+
+.box3 {
+  flex-basis: 100%;
 }
